@@ -27,7 +27,7 @@ Contribuições são bem-vindas!:smile: Para contribuir lembre-se sempre de adic
 Não se aplica.
 
 
-{
+
   "files": ["README.md"],
   "imageSize": 100,
   "contributorsPerLine": 7,
@@ -43,4 +43,4 @@ Não se aplica.
   },
   "skipCi": "true",
   "contributors": []
-}
+
