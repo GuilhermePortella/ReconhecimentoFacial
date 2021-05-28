@@ -19,9 +19,6 @@ Para executar o projeto, é necessário utilizar o NetBeans, para que o mesmo id
 ## Contribuições
 
 Contribuições são bem-vindas!:smile: Para contribuir lembre-se sempre de adicionar testes unitários para as novas classes com documentação.
-
-[<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=" width=115 > <br> <sub> Diana Regina </sub>](https://github.com/Diana-ops) |
-| :---: |
   
  ### 🛠 Tecnologias
 
