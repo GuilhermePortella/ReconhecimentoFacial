@@ -27,4 +27,4 @@ Contribuições são bem-vindas!:smile: Para contribuir lembre-se sempre de adic
 Não se aplica.
 
 
-@all-contributors bot! 
+@all-contributors
