@@ -1,7 +1,7 @@
 <h1> Reconhecimento Facial Java</h1>
 
 <h4 align="center"> 
-	🚧  Em construção...  🚧
+	🚧  Em construção...  🚧<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 </h4>
   
  ## Configuração
