@@ -15,7 +15,9 @@
   
   
   
-  
+ ## Configuração
+
+Para executar o projeto, é necessário utilizar o NetBeans, para que o mesmo identifique as dependências necessárias para a execução no repositório. Fazendo o clone do projeto você sera capaz de executá-lo e caso queira fazer modificações 
   
   
   
