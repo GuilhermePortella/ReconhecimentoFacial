@@ -1,4 +1,4 @@
-<h1> Reconhecimento Facial</h1> 
+<h1> Reconhecimento Facial</h1> <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
 
 
 
