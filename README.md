@@ -19,7 +19,9 @@
   
   
   
-  
+## Contribuições
+
+Contribuições são bem-vindas!:smile: Para contribuir lembre-se sempre de adicionar testes unitários para as novas classes com documentação.
   
   
   
