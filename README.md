@@ -1,6 +1,8 @@
 <h1> Reconhecimento Facial Java</h1>
 
-<h3> Projeto em desenvolvimento <h3>
+<h4 align="center"> 
+	🚧  Em construção...  🚧
+</h4>
   
   
   
