@@ -22,7 +22,8 @@ Para executar o projeto, é necessário utilizar o NetBeans, para que o mesmo id
 
 Contribuições são bem-vindas!:smile: Para contribuir lembre-se sempre de adicionar testes unitários para as novas classes com documentação.
   
- ### 🛠 Tecnologias
+
+### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
