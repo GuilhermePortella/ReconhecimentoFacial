@@ -61,8 +61,7 @@ public class Captura {
             cvtColor(imagemColorida, imagemCinza, COLOR_BGRA2GRAY);// converter a imagem colorida para uma imagem em escala cinza
             
             RectVector facesDetectadas = new RectVector();//RectVector armazena todas as faces que ele detecta
-            detectorFace.detectMultiScale(imagemCinza, facesDetectadas, 1.1, 1, 0, new Size(150,150), new Size(500,500));
-           //
+            detectorFace.detectMultiScale(imagemCinza, facesDetectadas, 1.1, 1, 0, new Size(150), new Size(500));
                                     /*Pega a img cinza armazena em facesDetectadas - 1.1=Tamanho escala da img - 1 numero de vizinhos - 0 para versoes antigas 
                                         Size tamanho minimo Size tamanho maximo
                                     */
@@ -72,11 +71,12 @@ public class Captura {
                 rectangle(imagemColorida, dadosFaces,new Scalar(0,0,255, 0));
                 
             }
-            if (cFrame.isVisible()) {               //Se estiver visivel (Camera)
+            if (cFrame.isVisible()) {                //Se estiver visivel (Camera)
                 cFrame.showImage(frameCapturado);   //Pegar imagem na webCam
             }
         }
         cFrame.dispose();//liberar memoria da janela
         camera.stop();//para a captura
     }
+
 }
