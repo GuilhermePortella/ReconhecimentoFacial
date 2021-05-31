@@ -28,9 +28,9 @@ Contribuições são bem-vindas!:smile: Para contribuir lembre-se sempre de adic
 
 [<img src="https://avatars.githubusercontent.com/u/66707156?v=4" width=115 > <br> <sub> Bruna Rocha </sub>](https://github.com/bruna-rocha) |
 | :---: |  
-[<img src="https://avatars.githubusercontent.com/u/66707267?v=4" width=115 > <br> <sub> Diana Regina </sub>](https://github.com/Jhenifer-Mestico) |
+[<img src="https://avatars.githubusercontent.com/u/66707267?v=4" width=115 > <br> <sub> Jhenifer Mestico </sub>](https://github.com/Jhenifer-Mestico) |
 | :---: | 
-[<img src="https://avatars.githubusercontent.com/u/59876059?v=4" width=115 > <br> <sub> Diana Regina </sub>](https://github.com/GuilhermePortella) |
+[<img src="https://avatars.githubusercontent.com/u/59876059?v=4" width=115 > <br> <sub> Guilherme Portella </sub>](https://github.com/GuilhermePortella) |
  
  
   
