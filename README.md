@@ -22,6 +22,15 @@ Para executar o projeto, é necessário utilizar o NetBeans, para que o mesmo id
 
 Contribuições são bem-vindas!:smile: Para contribuir lembre-se sempre de adicionar testes unitários para as novas classes com documentação.
   
+  
+  
+ Liste o time responsável pelo desenvolvimento do projeto
+
+| [<img src="https://avatars.githubusercontent.com/u/66707156?v=4" width=115><br><sub>Bruna Rocha</sub>](https://github.com/bruna-rocha) |  
+[<img src="https://avatars.githubusercontent.com/u/66707267?v=4" width=115><br><sub>Jhenifer Mestico</sub>](https://github.com/Jhenifer-Mestico) |  
+[<img src="https://avatars.githubusercontent.com/u/59876059?v=4" width=115><br><sub>Guilherme Portella</sub>](https://github.com/GuilhermePortella) |
+| :---: | :---: | :---: 
+  
 
 ### 🛠 Tecnologias
 
