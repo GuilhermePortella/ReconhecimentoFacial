@@ -29,9 +29,10 @@ import org.bytedeco.javacv.OpenCVFrameGrabber;
  *
  * @author Guilherme
  */
+
 public class Captura {
 
-    public static void main(String[] args) throws FrameGrabber.Exception {
+    public static void main(String[] args) throws FrameGrabber.Exception, InterruptedException {
 
         KeyEvent tecla = null; //Verifica enventos do teclado, Para apertar uma tecla e tirar uma foto
 
@@ -51,13 +52,19 @@ public class Captura {
         Mat imagemColorida = new Mat();//Pegar oque esta em frameCapturado e atribuir a imagemColorida, a partir daqui sera possivel detectar as faces
         
         
+        int numeroAmostras = 25;//Numero de fotos, indicado na documentação OpenCV
+        int amostra = 1;//Contador cada foto se acrescenta uma ate chegar em 25
+        System.out.println("Digite o seu ID: ");
+        Scanner cadastro = new Scanner(System.in);
+        int idPessoa = cadastro.nextInt();
+        
                                  //Grab pegua oque esta na webCam
         while ((frameCapturado = camera.grab()) != null) {//(Pega oque esta na WebCam e joga em frameCapturado) != diferente
             
             imagemColorida = converteMat.convert(frameCapturado);//Pegando Frame e atribuindo a imagemColorida
             
             Mat imagemCinza = new Mat();//Algoritmo trabalha melhor com imagens em escala preto e branco
-            
+
             cvtColor(imagemColorida, imagemCinza, COLOR_BGRA2GRAY);// converter a imagem colorida para uma imagem em escala cinza
             
             RectVector facesDetectadas = new RectVector();//RectVector armazena todas as faces que ele detecta
@@ -66,17 +73,42 @@ public class Captura {
                                         Size tamanho minimo Size tamanho maximo
                                     */
                                     
+                                    
+            if (tecla == null) {
+                tecla = cFrame.waitKey(5);
+                
+            }
+                        
             for (int i = 0; i < facesDetectadas.size(); i++) {
                 Rect dadosFaces = facesDetectadas.get(0);
                 rectangle(imagemColorida, dadosFaces,new Scalar(0,0,255, 0));
-                
+                Mat faceCapturada = new Mat(imagemCinza, dadosFaces);
+                resize(faceCapturada, faceCapturada, new Size(160,160));//tamanho padrão para a imagem
+                if (tecla == null) {
+                    tecla = cFrame.waitKey(5);
+                }
+                if(tecla != null){
+                    if (tecla.getKeyChar() == 'q') {
+                        if (amostra<= numeroAmostras) {
+                            imwrite("src\\fotos\\pessoas." + idPessoa + "." + amostra + ".jpg", faceCapturada);
+                            System.out.println("Foto " + amostra + " capturada\n");
+                            amostra++;
+                        }
+                    }
+                    tecla = null;
+                }
+            }
+            if (tecla == null) {
+                tecla = cFrame.waitKey(20);
             }
             if (cFrame.isVisible()) {                //Se estiver visivel (Camera)
                 cFrame.showImage(frameCapturado);   //Pegar imagem na webCam
+            }
+            if (amostra > numeroAmostras) {
+                break;
             }
         }
         cFrame.dispose();//liberar memoria da janela
         camera.stop();//para a captura
     }
-
 }
