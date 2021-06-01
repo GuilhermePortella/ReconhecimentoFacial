@@ -13,6 +13,7 @@ Para executar o projeto, é necessário utilizar o NetBeans, para que o mesmo id
   
   ### Features
 
+
 - [x] Captura de imagens
 - [ ] Reconhecimento de rostos
 - [ ] Reconhecimento de objetos
