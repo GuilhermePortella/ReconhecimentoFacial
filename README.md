@@ -37,7 +37,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
 - [NetBeans](https://netbeans.apache.org/download/index.html)
-- [Café](https://blog.ucoffee.com.br/cafe-cremoso/)
 
   
 ## Licença
