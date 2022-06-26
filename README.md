@@ -3,7 +3,7 @@
 
 
 <h4 align="center"> 
-	<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+	<img src="http://img.shields.io/static/v1?label=STATUS&message=DESENVOLVIMENTO%20FINALIZADO&color=RED&style=for-the-badge"/>
 </h4>
   
  ## Configuração
