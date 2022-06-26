@@ -3,7 +3,7 @@
 
 
 <h4 align="center"> 
-	<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+	<img src="http://img.shields.io/static/v1?label=STATUS&message=DESENVOLVIMENTO%20FINALIZADO&color=RED&style=for-the-badge"/>
 </h4>
   
  ## Configuração
@@ -13,8 +13,9 @@ Para executar o projeto, é necessário utilizar o NetBeans, para que o mesmo id
   
   ### Features
 
-- [ ] Captura de imagens
-- [ ] Reconhecimento de rostos
+
+- [x] Captura de imagens
+- [x] Reconhecimento de rostos
 - [ ] Reconhecimento de objetos
   
   
@@ -22,18 +23,24 @@ Para executar o projeto, é necessário utilizar o NetBeans, para que o mesmo id
 
 Contribuições são bem-vindas!:smile: Para contribuir lembre-se sempre de adicionar testes unitários para as novas classes com documentação.
   
- ### 🛠 Tecnologias
+  
+  
+### Time responsável pelo desenvolvimento do projeto
+
+| [<img src="https://avatars.githubusercontent.com/u/59876059?v=4" width=115><br><sub>Guilherme Portella</sub>](https://github.com/GuilhermePortella) | 
+| :---:   
+
+### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
 - [NetBeans](https://netbeans.apache.org/download/index.html)
-- [Café](https://blog.ucoffee.com.br/cafe-cremoso/)
 
   
 ## Licença
 
-Não se aplica.
+MIT License
 
 
 
