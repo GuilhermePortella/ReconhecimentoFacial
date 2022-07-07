@@ -16,7 +16,6 @@ Para executar o projeto, é necessário utilizar o NetBeans, para que o mesmo id
 
 - [x] Captura de imagens
 - [x] Reconhecimento de rostos
-- [ ] Reconhecimento de objetos
   
   
 ## Contribuições
